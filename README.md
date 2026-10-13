@@ -91,7 +91,7 @@ Either way you end up with a folder called `N-i-MBLUS-Restaurant-DB`. Every step
 
 1. Click the connection tile to open it.
 2. Go to **File > Open SQL Script...** and choose `Script.sql` from the project folder.
-3. Click the plain lightning bolt icon in the toolbar (**Execute**, not "Execute the statement under the cursor"). This runs the whole file from top to bottom.
+3. Click the plain lightning bolt icon in the toolbar (**Execute**, not "Execute the statement under the insertion point"). This runs the whole file from top to bottom.
 4. Check the **Output** panel at the bottom. Every line should have a green tick. The last lines are the 10 queries, and their results open as tabs in the result grid.
 5. In the **Schemas** panel on the left, click the refresh icon. You should now see `restaurant_db` with 7 tables inside: `chef`, `customer`, `dining_table`, `dish`, `order_item`, `orders` and `waiter`.
 
